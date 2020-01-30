@@ -30,7 +30,7 @@ class Users(Resource):
 
     @users.expect(userModel)       
     def post(self):
-        '''create new user'''
+        '''create new user MODIFIED'''
         return'user expect'
 
 
